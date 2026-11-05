@@ -4,16 +4,16 @@
 # Nim  : 2603176
 # Kelas: 1A
 
-print("============PILIH DATA============")
+print("============PILIH DATA=============")
 print("1. Menghitung Jumlah Kata Dalam Kalimat")
 print("2. Menampilkan Kalimat Dalam Huruf Kapital")
 print("3. Membalikkan Urutan Kata Dalam Kalimat")
-print("===================================")
+print("====================================")
 
 opsi = int(input("Masukkan Pilihan Anda (1-3): "))
 data = str(input("\nMasukkan Kalimat Yang Ingin Di Anu-kan: "))
 
-print("===================================")
+print("====================================")
 
 match(opsi):
     case 1:

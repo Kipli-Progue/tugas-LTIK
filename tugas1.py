@@ -18,6 +18,7 @@ while True:
     data = int(input("Masukkan Data Yang Ingin Di Input : "))
     print("===================================\n")
 
+    # menyesuaikan data yang ingin di input
     match(data):
         case 1:
             nama = input("Masukkan Nama Lengkap Anda : ")
@@ -34,6 +35,7 @@ while True:
         case _:
             print("Pilihan Tidak Tersedia")
 
+    # menampilkan biodata
     print("\n============BIODATA ANDA============")
     print("Nama Lengkap Anda Adalah : ", nama)
     print("Nim Anda Adalah : ", nim)
